@@ -426,8 +426,83 @@
             </div>
         </div>
 
-        <!-- 계속해서 나머지 슬라이드들... -->
-        <!-- (나머지 슬라이드는 길이 관계상 생략) -->
+        <!-- 슬라이드 3: MCP 설정 절차 -->
+        <div class="slide">
+            <div class="slide-header">
+                <h1 class="slide-title">⚙️ MCP 설정하기</h1>
+                <p class="slide-subtitle">3단계 완성! 클릭 몇 번이면 끝</p>
+            </div>
+
+            <div style="display: flex; flex-direction: column; align-items: center; height: 65%; justify-content: center; margin: 30px 0;">
+                <!-- 상단 설명 -->
+                <div style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 20px 40px; border-radius: 50px; margin-bottom: 40px; font-size: 1.1em; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+                    <strong>🎯 총 소요시간: 3분</strong>
+                </div>
+
+                <!-- 메인 프로세스 -->
+                <div style="position: relative; display: flex; align-items: center; gap: 60px;">
+                    <!-- 1단계 -->
+                    <div style="position: relative; text-align: center;">
+                        <div style="width: 140px; height: 140px; background: linear-gradient(135deg, #FF6B6B, #FF8E53); border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; margin: 0 auto 25px; box-shadow: 0 15px 35px rgba(255,107,107,0.4); transition: transform 0.3s ease;">
+                            <div style="font-size: 3em; margin-bottom: 5px;">📁</div>
+                            <div style="font-size: 1em; font-weight: bold;">STEP 1</div>
+                        </div>
+                        <div style="background: white; padding: 20px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); max-width: 200px;">
+                            <h3 style="color: #FF6B6B; margin-bottom: 10px; font-size: 1.2em;">파일 찾기</h3>
+                            <p style="color: #666; font-size: 0.9em; line-height: 1.4;">설정 파일 열기<br><small>Windows 폴더</small></p>
+                        </div>
+                        
+                        <!-- 연결선 -->
+                        <div style="position: absolute; top: 70px; right: -30px; width: 60px; height: 2px; background: linear-gradient(90deg, #FF6B6B, #4ECDC4); z-index: -1;"></div>
+                        <div style="position: absolute; top: 65px; right: -35px; width: 0; height: 0; border-left: 10px solid #4ECDC4; border-top: 5px solid transparent; border-bottom: 5px solid transparent;"></div>
+                    </div>
+
+                    <!-- 2단계 -->
+                    <div style="position: relative; text-align: center;">
+                        <div style="width: 140px; height: 140px; background: linear-gradient(135deg, #4ECDC4, #44A08D); border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; margin: 0 auto 25px; box-shadow: 0 15px 35px rgba(78,205,196,0.4);">
+                            <div style="font-size: 3em; margin-bottom: 5px;">⚡</div>
+                            <div style="font-size: 1em; font-weight: bold;">STEP 2</div>
+                        </div>
+                        <div style="background: white; padding: 20px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); max-width: 200px;">
+                            <h3 style="color: #4ECDC4; margin-bottom: 10px; font-size: 1.2em;">코드 입력</h3>
+                            <p style="color: #666; font-size: 0.9em; line-height: 1.4;">설정 코드<br>복사 & 붙여넣기</p>
+                        </div>
+                        
+                        <!-- 연결선 -->
+                        <div style="position: absolute; top: 70px; right: -30px; width: 60px; height: 2px; background: linear-gradient(90deg, #4ECDC4, #A8E6CF); z-index: -1;"></div>
+                        <div style="position: absolute; top: 65px; right: -35px; width: 0; height: 0; border-left: 10px solid #A8E6CF; border-top: 5px solid transparent; border-bottom: 5px solid transparent;"></div>
+                    </div>
+
+                    <!-- 3단계 -->
+                    <div style="text-align: center;">
+                        <div style="width: 140px; height: 140px; background: linear-gradient(135deg, #A8E6CF, #88D8A3); border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; margin: 0 auto 25px; box-shadow: 0 15px 35px rgba(168,230,207,0.4);">
+                            <div style="font-size: 3em; margin-bottom: 5px;">🚀</div>
+                            <div style="font-size: 1em; font-weight: bold;">STEP 3</div>
+                        </div>
+                        <div style="background: white; padding: 20px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); max-width: 200px;">
+                            <h3 style="color: #88D8A3; margin-bottom: 10px; font-size: 1.2em;">재시작</h3>
+                            <p style="color: #666; font-size: 0.9em; line-height: 1.4;">Claude Desktop<br>종료 후 재실행</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 하단 성공 메시지 -->
+                <div style="margin-top: 40px; background: linear-gradient(135deg, #FFD93D, #FF6B6B); color: white; padding: 15px 30px; border-radius: 50px; font-size: 1.1em; box-shadow: 0 10px 30px rgba(255,107,107,0.3); animation: pulse 2s infinite;">
+                    <strong>🎉 성공 확인: 화면 상단에 🔌 아이콘이 보이면 완료!</strong>
+                </div>
+            </div>
+
+            <style>
+                @keyframes pulse {
+                    0% { transform: scale(1); }
+                    50% { transform: scale(1.05); }
+                    100% { transform: scale(1); }
+                }
+            </style>
+        </div>
+
+        <!-- 추가 슬라이드들은 여기에 계속됩니다... -->
+        <!-- 길이 관계상 나머지 슬라이드는 다음 업데이트에서 추가됩니다 -->
     </div>
 
     <div class="slide-indicator">
